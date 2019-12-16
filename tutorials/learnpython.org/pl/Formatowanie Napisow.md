@@ -79,3 +79,7 @@ Czesc Jacek i Darek. Temperatura na zewnatrz wynosi 44.4 stopnie Celsjusza.
 
 Solution
 --------
+dane = ("Jacek", "Darek", 44.4)
+formatowany_napis = "Czesc"
+# Czesc Jacek i Darek. Temperatura na zewnatrz wynosi 44.4 stopnie Celsjusza.
+print ('%s' % (formatowany_napis) + '%s i %s. Temperatura na zewnatrz wynosi %d stopnie Celsjusza.' % (dane)) 
